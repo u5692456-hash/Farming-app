@@ -26,113 +26,113 @@ const MSPSchemes = ({ currentLanguage }: MSPSchemesProps) => {
 
   const translations = {
     en: {
-      title: 'Crop Recommendation Assistant',
-      subtitle: 'Get instant help with MSP rates, government schemes, eligibility, and applications',
-      placeholder: 'Ask about MSP rates, schemes, eligibility, application process...',
+      title: 'Crop Recommendation System',
+      subtitle: 'Get AI-powered crop recommendations based on your location, soil type, weather conditions, and market trends',
+      placeholder: 'Ask about crop recommendations, soil analysis, weather patterns, market prices...',
       send: 'Send',
       typing: 'Assistant is typing...',
-      welcomeMessage: 'Hello! I\'m your MSP Schemes Assistant. I can help you with information about Minimum Support Prices, check your eligibility, calculate potential benefits, and guide you through the application process. What would you like to know?',
+      welcomeMessage: 'Hello! I\'m your Crop Recommendation Assistant. I can help you choose the best crops for your farm based on soil conditions, weather patterns, market demand, and profitability analysis. What would you like to know?',
       quickActions: 'Quick Actions',
-      checkEligibility: 'Check Eligibility',
-      calculateBenefits: 'Calculate Benefits',
-      applicationHelp: 'Application Help',
-      viewSchemes: 'View All Schemes',
+      checkEligibility: 'Soil Analysis',
+      calculateBenefits: 'Profit Calculator',
+      applicationHelp: 'Crop Guide',
+      viewSchemes: 'View Recommendations',
       popularTopics: 'Popular Topics',
-      wheatMSP: 'Wheat MSP Rates',
-      riceMSP: 'Rice MSP Rates',
-      cottonMSP: 'Cotton MSP Rates',
-      sugarcaneMSP: 'Sugarcane MSP Rates',
-      howToApply: 'How to Apply',
-      requiredDocuments: 'Required Documents',
-      processingTime: 'Processing Time',
+      wheatMSP: 'Wheat Cultivation',
+      riceMSP: 'Rice Farming',
+      cottonMSP: 'Cotton Growing',
+      sugarcaneMSP: 'Sugarcane Farming',
+      howToApply: 'Best Practices',
+      requiredDocuments: 'Soil Requirements',
+      processingTime: 'Growing Season',
       contactSupport: 'Contact Support'
     },
     hi: {
-      title: 'फसल सिफारिश सहायक',
-      subtitle: 'MSP दरों, सरकारी योजनाओं, पात्रता और आवेदनों के साथ तत्काल सहायता प्राप्त करें',
-      placeholder: 'MSP दरों, योजनाओं, पात्रता, आवेदन प्रक्रिया के बारे में पूछें...',
+      title: 'फसल सिफारिश प्रणाली',
+      subtitle: 'अपने स्थान, मिट्टी के प्रकार, मौसम की स्थिति और बाजार के रुझान के आधार पर AI-संचालित फसल सिफारिशें प्राप्त करें',
+      placeholder: 'फसल सिफारिशों, मिट्टी विश्लेषण, मौसम पैटर्न, बाजार की कीमतों के बारे में पूछें...',
       send: 'भेजें',
       typing: 'सहायक टाइप कर रहा है...',
-      welcomeMessage: 'नमस्ते! मैं आपका MSP योजना सहायक हूं। मैं न्यूनतम समर्थन मूल्य की जानकारी, आपकी पात्रता की जांच, संभावित लाभों की गणना और आवेदन प्रक्रिया में आपकी मदद कर सकता हूं। आप क्या जानना चाहते हैं?',
+      welcomeMessage: 'नमस्ते! मैं आपका फसल सिफारिश सहायक हूं। मैं मिट्टी की स्थिति, मौसम पैटर्न, बाजार की मांग और लाभप्रदता विश्लेषण के आधार पर आपके खेत के लिए सबसे अच्छी फसलों को चुनने में आपकी मदद कर सकता हूं। आप क्या जानना चाहते हैं?',
       quickActions: 'त्वरित कार्य',
-      checkEligibility: 'पात्रता जांचें',
-      calculateBenefits: 'लाभों की गणना करें',
-      applicationHelp: 'आवेदन सहायता',
-      viewSchemes: 'सभी योजनाएं देखें',
+      checkEligibility: 'मिट्टी विश्लेषण',
+      calculateBenefits: 'लाभ कैलकुलेटर',
+      applicationHelp: 'फसल गाइड',
+      viewSchemes: 'सिफारिशें देखें',
       popularTopics: 'लोकप्रिय विषय',
-      wheatMSP: 'गेहूं MSP दरें',
-      riceMSP: 'चावल MSP दरें',
-      cottonMSP: 'कपास MSP दरें',
-      sugarcaneMSP: 'गन्ना MSP दरें',
-      howToApply: 'आवेदन कैसे करें',
-      requiredDocuments: 'आवश्यक दस्तावेज',
-      processingTime: 'प्रसंस्करण समय',
+      wheatMSP: 'गेहूं की खेती',
+      riceMSP: 'चावल की खेती',
+      cottonMSP: 'कपास की खेती',
+      sugarcaneMSP: 'गन्ने की खेती',
+      howToApply: 'सर्वोत्तम प्रथाएं',
+      requiredDocuments: 'मिट्टी की आवश्यकताएं',
+      processingTime: 'बढ़ते मौसम',
       contactSupport: 'सहायता से संपर्क करें'
     },
     te: {
-      title: 'పంట సిఫార్సు సహాయకుడు',
-      subtitle: 'MSP రేట్లు, ప్రభుత్వ పథకాలు, అర్హత మరియు దరఖాస్తులతో తక్షణ సహాయం పొందండి',
-      placeholder: 'MSP రేట్లు, పథకాలు, అర్హత, దరఖాస్తు ప్రక్రియ గురించి అడగండి...',
+      title: 'పంట సిఫార్సు వ్యవస్థ',
+      subtitle: 'మీ స్థానం, మట్టి రకం, వాతావరణ పరిస్థితులు మరియు మార్కెట్ ట్రెండ్‌ల ఆధారంగా AI-ఆధారిత పంట సిఫార్సులను పొందండి',
+      placeholder: 'పంట సిఫార్సులు, మట్టి విశ్లేషణ, వాతావరణ నమూనాలు, మార్కెట్ ధరల గురించి అడగండి...',
       send: 'పంపండి',
       typing: 'సహాయకుడు టైప్ చేస్తున్నాడు...',
-      welcomeMessage: 'హలో! నేను మీ MSP పథకాల సహాయకుడిని. కనీస మద్దతు ధరల సమాచారం, మీ అర్హత తనిఖీ, సంభావ్య ప్రయోజనాల లెక్కింపు మరియు దరఖాస్తు ప్రక్రియలో మీకు సహాయం చేయగలను. మీరు ఏమి తెలుసుకోవాలనుకుంటున్నారు?',
+      welcomeMessage: 'హలో! నేను మీ పంట సిఫార్సు సహాయకుడిని. మట్టి పరిస్థితులు, వాతావరణ నమూనాలు, మార్కెట్ డిమాండ్ మరియు లాభదాయకత విశ్లేషణ ఆధారంగా మీ వ్యవసాయ క్షేత్రానికి ఉత్తమ పంటలను ఎంచుకోవడంలో మీకు సహాయం చేయగలను. మీరు ఏమి తెలుసుకోవాలనుకుంటున్నారు?',
       quickActions: 'త్వరిత చర్యలు',
-      checkEligibility: 'అర్హత తనిఖీ చేయండి',
-      calculateBenefits: 'ప్రయోజనాలను లెక్కించండి',
-      applicationHelp: 'దరఖాస్తు సహాయం',
-      viewSchemes: 'అన్ని పథకాలు చూడండి',
+      checkEligibility: 'మట్టి విశ్లేషణ',
+      calculateBenefits: 'లాభం కాలిక్యులేటర్',
+      applicationHelp: 'పంట గైడ్',
+      viewSchemes: 'సిఫార్సులు చూడండి',
       popularTopics: 'ప్రసిద్ధ అంశాలు',
-      wheatMSP: 'గోధుమ MSP రేట్లు',
-      riceMSP: 'వరి MSP రేట్లు',
-      cottonMSP: 'పత్తి MSP రేట్లు',
-      sugarcaneMSP: 'చెరకు MSP రేట్లు',
-      howToApply: 'ఎలా దరఖాస్తు చేసుకోవాలి',
-      requiredDocuments: 'అవసరమైన పత్రాలు',
-      processingTime: 'ప్రాసెసింగ్ సమయం',
+      wheatMSP: 'గోధుమ సాగు',
+      riceMSP: 'వరి వ్యవసాయం',
+      cottonMSP: 'పత్తి పెంపకం',
+      sugarcaneMSP: 'చెరకు వ్యవసాయం',
+      howToApply: 'ఉత్తమ పద్ధతులు',
+      requiredDocuments: 'మట్టి అవసరాలు',
+      processingTime: 'పెరుగుతున్న సీజన్',
       contactSupport: 'మద్దతును సంప్రదించండి'
     },
     ta: {
-      title: 'பயிர் பரிந்துரை உதவியாளர்',
-      subtitle: 'MSP விகிதங்கள், அரசு திட்டங்கள், தகுதி மற்றும் விண்ணப்பங்களுடன் உடனடி உதவி பெறுங்கள்',
-      placeholder: 'MSP விகிதங்கள், திட்டங்கள், தகுதி, விண்ணப்ப செயல்முறை பற்றி கேளுங்கள்...',
+      title: 'பயிர் பரிந்துரை அமைப்பு',
+      subtitle: 'உங்கள் இடம், மண் வகை, வானிலை நிலைமைகள் மற்றும் சந்தை போக்குகளின் அடிப்படையில் AI-இயங்கும் பயிர் பரிந்துரைகளைப் பெறுங்கள்',
+      placeholder: 'பயிர் பரிந்துரைகள், மண் பகுப்பாய்வு, வானிலை முறைகள், சந்தை விலைகள் பற்றி கேளுங்கள்...',
       send: 'அனுப்பு',
       typing: 'உதவியாளர் தட்டச்சு செய்கிறார்...',
-      welcomeMessage: 'வணக்கம்! நான் உங்கள் MSP திட்ட உதவியாளர். குறைந்தபட்ச ஆதரவு விலைகள் பற்றிய தகவல்கள், உங்கள் தகுதியை சரிபார்த்தல், சாத்தியமான பலன்களைக் கணக்கிடுதல் மற்றும் விண்ணப்ப செயல்முறையில் உங்களுக்கு உதவ முடியும். நீங்கள் என்ன தெரிந்து கொள்ள விரும்புகிறீர்கள்?',
+      welcomeMessage: 'வணக்கம்! நான் உங்கள் பயிர் பரிந்துரை உதவியாளர். மண் நிலைமைகள், வானிலை முறைகள், சந்தை தேவை மற்றும் லாபகரமான பகுப்பாய்வின் அடிப்படையில் உங்கள் பண்ணைக்கு சிறந்த பயிர்களைத் தேர்ந்தெடுக்க உங்களுக்கு உதவ முடியும். நீங்கள் என்ன தெரிந்து கொள்ள விரும்புகிறீர்கள்?',
       quickActions: 'விரைவு செயல்கள்',
-      checkEligibility: 'தகுதியை சரிபார்க்கவும்',
-      calculateBenefits: 'பலன்களைக் கணக்கிடுங்கள்',
-      applicationHelp: 'விண்ணப்ப உதவி',
-      viewSchemes: 'அனைத்து திட்டங்களையும் பார்க்கவும்',
+      checkEligibility: 'மண் பகுப்பாய்வு',
+      calculateBenefits: 'லாப கால்குலேட்டர்',
+      applicationHelp: 'பயிர் வழிகாட்டி',
+      viewSchemes: 'பரிந்துரைகளைப் பார்க்கவும்',
       popularTopics: 'பிரபலமான தலைப்புகள்',
-      wheatMSP: 'கோதுமை MSP விகிதங்கள்',
-      riceMSP: 'அரிசி MSP விகிதங்கள்',
-      cottonMSP: 'பருத்தி MSP விகிதங்கள்',
-      sugarcaneMSP: 'கரும்பு MSP விகிதங்கள்',
-      howToApply: 'எப்படி விண்ணப்பிக்க வேண்டும்',
-      requiredDocuments: 'தேவையான ஆவணங்கள்',
-      processingTime: 'செயலாக்க நேரம்',
+      wheatMSP: 'கோதுமை சாகுபடி',
+      riceMSP: 'அரிசி விவசாயம்',
+      cottonMSP: 'பருத்தி வளர்ப்பு',
+      sugarcaneMSP: 'கரும்பு விவசாயம்',
+      howToApply: 'சிறந்த நடைமுறைகள்',
+      requiredDocuments: 'மண் தேவைகள்',
+      processingTime: 'வளரும் பருவம்',
       contactSupport: 'ஆதரவைத் தொடர்பு கொள்ளுங்கள்'
     },
     ml: {
-      title: 'വിള ശുപാർശ സഹായി',
-      subtitle: 'MSP നിരക്കുകൾ, സർക്കാർ പദ്ധതികൾ, യോഗ്യത, അപേക്ഷകൾ എന്നിവയിൽ തൽക്ഷണ സഹായം നേടുക',
-      placeholder: 'MSP നിരക്കുകൾ, പദ്ധതികൾ, യോഗ്യത, അപേക്ഷാ പ്രക്രിയ എന്നിവയെക്കുറിച്ച് ചോദിക്കുക...',
+      title: 'വിള ശുപാർശ സിസ്റ്റം',
+      subtitle: 'നിങ്ങളുടെ സ്ഥാനം, മണ്ണിന്റെ തരം, കാലാവസ്ഥാ സാഹചര്യങ്ങൾ, മാർക്കറ്റ് ട്രെൻഡുകൾ എന്നിവയെ അടിസ്ഥാനമാക്കി AI-പ്രവർത്തിത വിള ശുപാർശകൾ നേടുക',
+      placeholder: 'വിള ശുപാർശകൾ, മണ്ണ് വിശകലനം, കാലാവസ്ഥാ പാറ്റേണുകൾ, മാർക്കറ്റ് വിലകൾ എന്നിവയെക്കുറിച്ച് ചോദിക്കുക...',
       send: 'അയയ്ക്കുക',
       typing: 'സഹായി ടൈപ്പ് ചെയ്യുന്നു...',
-      welcomeMessage: 'ഹലോ! ഞാൻ നിങ്ങളുടെ MSP പദ്ധതി സഹായിയാണ്. ഏറ്റവും കുറഞ്ഞ പിന്തുണ വിലകളെക്കുറിച്ചുള്ള വിവരങ്ങൾ, നിങ്ങളുടെ യോഗ്യത പരിശോധിക്കൽ, സാധ്യതയുള്ള നേട്ടങ്ങൾ കണക്കാക്കൽ, അപേക്ഷാ പ്രക്രിയയിൽ നിങ്ങളെ സഹായിക്കാൻ എനിക്ക് കഴിയും. നിങ്ങൾ എന്താണ് അറിയാൻ ആഗ്രഹിക്കുന്നത്?',
+      welcomeMessage: 'ഹലോ! ഞാൻ നിങ്ങളുടെ വിള ശുപാർശ സഹായിയാണ്. മണ്ണിന്റെ അവസ്ഥ, കാലാവസ്ഥാ പാറ്റേണുകൾ, മാർക്കറ്റ് ഡിമാൻഡ്, ലാഭകരമായ വിശകലനം എന്നിവയെ അടിസ്ഥാനമാക്കി നിങ്ങളുടെ കൃഷിയിടത്തിന് ഏറ്റവും മികച്ച വിളകൾ തിരഞ്ഞെടുക്കാൻ നിങ്ങളെ സഹായിക്കാൻ എനിക്ക് കഴിയും. നിങ്ങൾ എന്താണ് അറിയാൻ ആഗ്രഹിക്കുന്നത്?',
       quickActions: 'പെട്ടെന്നുള്ള പ്രവർത്തനങ്ങൾ',
-      checkEligibility: 'യോഗ്യത പരിശോധിക്കുക',
-      calculateBenefits: 'നേട്ടങ്ങൾ കണക്കാക്കുക',
-      applicationHelp: 'അപേക്ഷാ സഹായം',
-      viewSchemes: 'എല്ലാ പദ്ധതികളും കാണുക',
+      checkEligibility: 'മണ്ണ് വിശകലനം',
+      calculateBenefits: 'ലാഭം കാൽക്കുലേറ്റർ',
+      applicationHelp: 'വിള ഗൈഡ്',
+      viewSchemes: 'ശുപാർശകൾ കാണുക',
       popularTopics: 'ജനപ്രിയ വിഷയങ്ങൾ',
-      wheatMSP: 'ഗോതമ്പ് MSP നിരക്കുകൾ',
-      riceMSP: 'അരി MSP നിരക്കുകൾ',
-      cottonMSP: 'പരുത്തി MSP നിരക്കുകൾ',
-      sugarcaneMSP: 'കരിമ്പ് MSP നിരക്കുകൾ',
-      howToApply: 'എങ്ങനെ അപേക്ഷിക്കാം',
-      requiredDocuments: 'ആവശ്യമായ രേഖകൾ',
-      processingTime: 'പ്രോസസ്സിംഗ് സമയം',
+      wheatMSP: 'ഗോതമ്പ് കൃഷി',
+      riceMSP: 'അരി കൃഷി',
+      cottonMSP: 'പരുത്തി കൃഷി',
+      sugarcaneMSP: 'കരിമ്പ് കൃഷി',
+      howToApply: 'മികച്ച രീതികൾ',
+      requiredDocuments: 'മണ്ണിന്റെ ആവശ്യകതകൾ',
+      processingTime: 'വളരുന്ന സീസൺ',
       contactSupport: 'സപ്പോർട്ടുമായി ബന്ധപ്പെടുക'
     }
   };
@@ -176,62 +176,62 @@ const MSPSchemes = ({ currentLanguage }: MSPSchemesProps) => {
     
     if (message.includes('wheat') || message.includes('गेहूं') || message.includes('గోధుమ') || message.includes('கோதுமை') || message.includes('ഗോതമ്പ്')) {
       return currentLanguage === 'hi' 
-        ? 'गेहूं का वर्तमान MSP ₹2,275 प्रति क्विंटल है (रबी 2024-25)। यह केंद्र सरकार द्वारा निर्धारित किया गया है। आप अपने नजदीकी खरीद केंद्र पर अपनी फसल बेच सकते हैं।'
+        ? 'गेहूं की खेती के लिए: 1) दोमट मिट्टी सबसे अच्छी है 2) नवंबर-दिसंबर में बुआई करें 3) 20-25°C तापमान आदर्श है 4) वर्तमान MSP ₹2,275 प्रति क्विंटल है। आपकी मिट्टी और जलवायु के आधार पर मैं बेहतर सुझाव दे सकता हूं।'
         : currentLanguage === 'te'
-        ? 'గోధుమ ప్రస్తుత MSP ₹2,275 ప్రति క్వింటల్ (రబీ 2024-25). ఇది కేంద్ర ప్రభుత్వంచే నిర్ణయించబడింది। మీరు మీ సమీప కొనుగోలు కేంద్రంలో మీ పంటను అమ్మవచ్చు.'
+        ? 'గోధుమ సాగుకు: 1) లోమీ మట్టి ఉత్తమం 2) నవంబర్-డిసెంబర్‌లో విత్తనాలు వేయండి 3) 20-25°C ఉష్ణోగ్రత అనువైనది 4) ప్రస్తుత MSP ₹2,275 ప్రతి క్వింటల్. మీ మట్టి మరియు వాతావరణం ఆధారంగా నేను మెరుగైన సలహాలు ఇవ్వగలను.'
         : currentLanguage === 'ta'
-        ? 'கோதுமையின் தற்போதைய MSP ₹2,275 ஒரு குவிண்டலுக்கு (ரபி 2024-25). இது மத்திய அரசால் நிர்ணயிக்கப்பட்டது. உங்கள் அருகிலுள்ள கொள்முதல் மையத்தில் உங்கள் பயிரை விற்கலாம்.'
+        ? 'கோதுமை சாகுபடிக்கு: 1) களிமண் மண் சிறந்தது 2) நவம்பர்-டிசம்பரில் விதைக்கவும் 3) 20-25°C வெப்பநிலை ஏற்றது 4) தற்போதைய MSP ₹2,275 ஒரு குவிண்டலுக்கு. உங்கள் மண் மற்றும் காலநிலையின் அடிப்படையில் நான் சிறந்த பரிந்துரைகளை வழங்க முடியும்.'
         : currentLanguage === 'ml'
-        ? 'ഗോതമ്പിന്റെ നിലവിലെ MSP ₹2,275 ഒരു ക്വിന്റലിന് (രബി 2024-25). ഇത് കേന്ദ്ര സർക്കാർ നിശ്ചയിച്ചതാണ്. നിങ്ങളുടെ അടുത്തുള്ള വാങ്ങൽ കേന്ദ്രത്തിൽ നിങ്ങളുടെ വിള വിൽക്കാം.'
-        : 'The current MSP for wheat is ₹2,275 per quintal (Rabi 2024-25). This is set by the central government. You can sell your crop at the nearest procurement center.';
+        ? 'ഗോതമ്പ് കൃഷിക്ക്: 1) കളിമണ്ണ് ഏറ്റവും നല്ലത് 2) നവംബർ-ഡിസംബറിൽ വിതയ്ക്കുക 3) 20-25°C താപനില അനുയോജ്യം 4) നിലവിലെ MSP ₹2,275 ഒരു ക്വിന്റലിന്. നിങ്ങളുടെ മണ്ണും കാലാവസ്ഥയും അടിസ്ഥാനമാക്കി എനിക്ക് മികച്ച നിർദ്ദേശങ്ങൾ നൽകാൻ കഴിയും.'
+        : 'For wheat cultivation: 1) Loamy soil is best 2) Sow in November-December 3) 20-25°C temperature is ideal 4) Current MSP is ₹2,275 per quintal. I can provide better recommendations based on your soil and climate conditions.';
     }
     
     if (message.includes('rice') || message.includes('चावल') || message.includes('వరి') || message.includes('அரிசி') || message.includes('അരി')) {
       return currentLanguage === 'hi'
-        ? 'सामान्य चावल का वर्तमान MSP ₹2,300 प्रति क्विंटल है (खरीफ 2024)। ग्रेड A चावल के लिए यह ₹2,320 प्रति क्विंटल है।'
+        ? 'चावल की खेती के लिए: 1) चिकनी मिट्टी आदर्श है 2) जून-जुलाई में रोपाई करें 3) 25-35°C तापमान चाहिए 4) भरपूर पानी की आवश्यकता। वर्तमान MSP ₹2,300 प्रति क्विंटल है। आपके क्षेत्र के लिए उपयुक्त किस्म सुझा सकता हूं।'
         : currentLanguage === 'te'
-        ? 'సాధారణ వరి ప్రస్తుత MSP ₹2,300 ప్రति క్వింటల్ (ఖరీఫ్ 2024). గ్రేడ్ A వరికి ఇది ₹2,320 ప్రति క్వింటల్.'
+        ? 'వరి సాగుకు: 1) బంకమట్టి అనువైనది 2) జూన్-జూలైలో నాట్లు వేయండి 3) 25-35°C ఉష్ణోగ్రత అవసరం 4) ఎక్కువ నీరు కావాలి. ప్రస్తుత MSP ₹2,300 ప్రతి క్వింటల్. మీ ప్రాంతానికి అనుకూలమైన రకాన్ని సూచించగలను.'
         : currentLanguage === 'ta'
-        ? 'பொதுவான அரிசியின் தற்போதைய MSP ₹2,300 ஒரு குவிண்டலுக்கு (கரீப் 2024). கிரேட் A அரிசிக்கு இது ₹2,320 ஒரு குவிண்டலுக்கு.'
+        ? 'அரிசி சாகுபடிக்கு: 1) களிமண் மண் ஏற்றது 2) ஜூன்-ஜூலையில் நடவு செய்யவும் 3) 25-35°C வெப்பநிலை தேவை 4) அதிக நீர் வேண்டும். தற்போதைய MSP ₹2,300 ஒரு குவிண்டலுக்கு. உங்கள் பகுதிக்கு ஏற்ற வகையை பரிந்துரைக்க முடியும்.'
         : currentLanguage === 'ml'
-        ? 'സാധാരണ അരിയുടെ നിലവിലെ MSP ₹2,300 ഒരു ക്വിന്റലിന് (ഖരീഫ് 2024). ഗ്രേഡ് A അരിക്ക് ഇത് ₹2,320 ഒരു ക്വിന്റലിന്.'
-        : 'The current MSP for common rice is ₹2,300 per quintal (Kharif 2024). For Grade A rice, it is ₹2,320 per quintal.';
+        ? 'അരി കൃഷിക്ക്: 1) കളിമണ്ണ് അനുയോജ്യം 2) ജൂൺ-ജൂലൈയിൽ നടുക 3) 25-35°C താപനില വേണം 4) ധാരാളം വെള്ളം ആവശ്യം. നിലവിലെ MSP ₹2,300 ഒരു ക്വിന്റലിന്. നിങ്ങളുടെ പ്രദേശത്തിന് അനുയോജ്യമായ ഇനം നിർദ്ദേശിക്കാം.'
+        : 'For rice cultivation: 1) Clay soil is suitable 2) Transplant in June-July 3) 25-35°C temperature needed 4) Requires abundant water. Current MSP is ₹2,300 per quintal. I can suggest suitable varieties for your region.';
     }
     
-    if (message.includes('eligibility') || message.includes('पात्रता') || message.includes('అర్హత') || message.includes('தகுதி') || message.includes('യോഗ്യത')) {
+    if (message.includes('soil') || message.includes('मिट्टी') || message.includes('మట్టి') || message.includes('மண்') || message.includes('മണ്ണ്')) {
       return currentLanguage === 'hi'
-        ? 'MSP योजना के लिए पात्रता: 1) भूमि स्वामी किसान 2) पट्टेदार किसान 3) मौखिक पट्टेदार। आपके पास वैध भूमि दस्तावेज या पट्टा समझौता होना चाहिए।'
+        ? 'मिट्टी विश्लेषण के लिए: 1) मिट्टी का pH स्तर जांचें 2) नाइट्रोजन, फास्फोरस, पोटाश की मात्रा देखें 3) जैविक कार्बन की जांच करें। मुझे बताएं कि आपकी मिट्टी कैसी है - काली, लाल, दोमट या बलुई?'
         : currentLanguage === 'te'
-        ? 'MSP పథకానికి అర్హత: 1) భూమి యజమాని రైతులు 2) లీజుదారు రైతులు 3) మౌఖిక లీజుదారులు. మీ వద్ద చెల్లుబాటు అయ్యే భూమి పత్రాలు లేదా లీజు ఒప్పందం ఉండాలి.'
+        ? 'మట్టి విశ్లేషణ కోసం: 1) మట్టి pH స్థాయిని తనిఖీ చేయండి 2) నత్రజని, భాస్వరం, పొటాష్ మొత్తాలను చూడండి 3) సేంద్రీయ కార్బన్ పరీక్షించండి. మీ మట్టి ఎలా ఉంది - నల్ల, ఎరుపు, లోమీ లేదా ఇసుక మట్టి అని చెప్పండి?'
         : currentLanguage === 'ta'
-        ? 'MSP திட்டத்திற்கான தகுதி: 1) நில உரிமையாளர் விவசாயிகள் 2) குத்தகைதார விவசாயிகள் 3) வாய்மொழி குத்தகைதாரர்கள். உங்களிடம் செல்லுபடியாகும் நில ஆவணங்கள் அல்லது குத்தகை ஒப்பந்தம் இருக்க வேண்டும்.'
+        ? 'மண் பகுப்பாய்விற்கு: 1) மண்ணின் pH அளவைச் சரிபார்க்கவும் 2) நைட்ரஜன், பாஸ்பரஸ், பொட்டாஷ் அளவுகளைப் பார்க்கவும் 3) கரிம கார்பனைச் சோதிக்கவும். உங்கள் மண் எப்படி இருக்கிறது - கருப்பு, சிவப்பு, களிமண் அல்லது மணல் மண் என்று சொல்லுங்கள்?'
         : currentLanguage === 'ml'
-        ? 'MSP പദ്ധതിക്കുള്ള യോഗ്യത: 1) ഭൂമി ഉടമസ്ഥ കർഷകർ 2) പാട്ടക്കാർ കർഷകർ 3) വാക്കാലുള്ള പാട്ടക്കാർ. നിങ്ങളുടെ പക്കൽ സാധുവായ ഭൂമി രേഖകൾ അല്ലെങ്കിൽ പാട്ട കരാർ ഉണ്ടായിരിക്കണം.'
-        : 'Eligibility for MSP scheme: 1) Landowner farmers 2) Tenant farmers 3) Oral lessees. You must have valid land documents or lease agreement.';
+        ? 'മണ്ണ് വിശകലനത്തിന്: 1) മണ്ണിന്റെ pH നില പരിശോധിക്കുക 2) നൈട്രജൻ, ഫോസ്ഫറസ്, പൊട്ടാഷ് അളവുകൾ കാണുക 3) ജൈവ കാർബൺ പരിശോധിക്കുക. നിങ്ങളുടെ മണ്ണ് എങ്ങനെയാണ് - കറുപ്പ്, ചുവപ്പ്, കളിമണ്ണ് അല്ലെങ്കിൽ മണൽ മണ്ണ് എന്ന് പറയുക?'
+        : 'For soil analysis: 1) Check soil pH level 2) Test nitrogen, phosphorus, potash content 3) Check organic carbon. Tell me about your soil type - black, red, loamy, or sandy soil?';
     }
     
-    if (message.includes('apply') || message.includes('आवेदन') || message.includes('దరఖాస్తు') || message.includes('விண்ணப்பம்') || message.includes('അപേക്ഷ')) {
+    if (message.includes('profit') || message.includes('लाभ') || message.includes('లాభం') || message.includes('லாபம்') || message.includes('ലാഭം')) {
       return currentLanguage === 'hi'
-        ? 'MSP के तहत बेचने के लिए: 1) अपने नजदीकी खरीद केंद्र पर जाएं 2) आधार कार्ड और भूमि दस्तावेज लेकर जाएं 3) फसल की गुणवत्ता जांच कराएं 4) भुगतान 72 घंटों में मिलेगा।'
+        ? 'लाभ की गणना के लिए: 1) बीज, खाद, कीटनाशक की लागत 2) श्रम और मशीनरी खर्च 3) बाजार मूल्य और MSP की तुलना 4) प्रति एकड़ उत्पादन। मुझे बताएं कि आप कौन सी फसल उगाना चाहते हैं और कितनी जमीन है?'
         : currentLanguage === 'te'
-        ? 'MSP కింద అమ్మడానికి: 1) మీ సమీప కొనుగోలు కేంద్రానికి వెళ్లండి 2) ఆధార్ కార్డ్ మరియు భూమి పత్రాలను తీసుకెళ్లండి 3) పంట నాణ్యత తనిఖీ చేయించండి 4) చెల్లింపు 72 గంటల్లో వస్తుంది.'
+        ? 'లాభం లెక్కింపు కోసం: 1) విత్తనాలు, ఎరువులు, కీటనాశకాల ఖర్చు 2) కూలీ మరియు యంత్రాల ఖర్చు 3) మార్కెట్ ధర మరియు MSP పోలిక 4) ఎకరానికి దిగుబడి. మీరు ఏ పంట పండించాలనుకుంటున్నారు మరియు ఎంత భూమి ఉంది అని చెప్పండి?'
         : currentLanguage === 'ta'
-        ? 'MSP கீழ் விற்க: 1) உங்கள் அருகிலுள்ள கொள்முதல் மையத்திற்கு செல்லுங்கள் 2) ஆதார் அட்டை மற்றும் நில ஆவணங்களை எடுத்துச் செல்லுங்கள் 3) பயிர் தர சோதனை செய்யுங்கள் 4) பணம் 72 மணி நேரத்தில் கிடைக்கும்.'
+        ? 'லாப கணக்கீட்டிற்கு: 1) விதைகள், உரங்கள், பூச்சிக்கொல்லி செலவு 2) கூலி மற்றும் இயந்திர செலவு 3) சந்தை விலை மற்றும் MSP ஒப்பீடு 4) ஏக்கருக்கு மகசூல். நீங்கள் எந்த பயிரை வளர்க்க விரும்புகிறீர்கள் மற்றும் எவ்வளவு நிலம் உள்ளது என்று சொல்லுங்கள்?'
         : currentLanguage === 'ml'
-        ? 'MSP കീഴിൽ വിൽക്കാൻ: 1) നിങ്ങളുടെ അടുത്തുള്ള വാങ്ങൽ കേന്ദ്രത്തിൽ പോകുക 2) ആധാർ കാർഡും ഭൂമി രേഖകളും കൊണ്ടുപോകുക 3) വിള ഗുണനിലവാര പരിശോധന നടത്തുക 4) പണം 72 മണിക്കൂറിനുള്ളിൽ കിട്ടും.'
-        : 'To sell under MSP: 1) Visit your nearest procurement center 2) Bring Aadhaar card and land documents 3) Get crop quality checked 4) Payment within 72 hours.';
+        ? 'ലാഭം കണക്കാക്കാൻ: 1) വിത്തുകൾ, വളങ്ങൾ, കീടനാശിനി ചെലവ് 2) കൂലിയും യന്ത്രങ്ങളുടെ ചെലവും 3) മാർക്കറ്റ് വിലയും MSP താരതമ്യവും 4) ഏക്കറിന് വിളവ്. നിങ്ങൾ ഏത് വിള വളർത്താൻ ആഗ്രഹിക്കുന്നു, എത്ര ഭൂമിയുണ്ട് എന്ന് പറയുക?'
+        : 'For profit calculation: 1) Seeds, fertilizers, pesticide costs 2) Labor and machinery expenses 3) Market price vs MSP comparison 4) Yield per acre. Tell me which crop you want to grow and how much land you have?';
     }
     
     // Default response
     return currentLanguage === 'hi'
-      ? 'मैं MSP योजनाओं के बारे में जानकारी प्रदान कर सकता हूं। आप मुझसे MSP दरों, पात्रता, आवेदन प्रक्रिया, या खरीद केंद्रों के बारे में पूछ सकते हैं।'
+      ? 'मैं फसल सिफारिशों के बारे में जानकारी प्रदान कर सकता हूं। आप मुझसे मिट्टी विश्लेषण, मौसम के अनुकूल फसलें, लाभदायक खेती, या बाजार की कीमतों के बारे में पूछ सकते हैं।'
       : currentLanguage === 'te'
-      ? 'నేను MSP పథకాల గురించి సమాచారం అందించగలను. MSP రేట్లు, అర్హత, దరఖాస్తు ప్రక్రియ లేదా కొనుగోలు కేంద్రాల గురించి మీరు నన్ను అడగవచ్చు.'
+      ? 'నేను పంట సిఫార్సుల గురించి సమాచారం అందించగలను. మట్టి విశ్లేషణ, వాతావరణానికి అనుకూలమైన పంటలు, లాభదాయకమైన వ్యవసాయం లేదా మార్కెట్ ధరల గురించి మీరు నన్ను అడగవచ్చు.'
       : currentLanguage === 'ta'
-      ? 'நான் MSP திட்டங்கள் பற்றிய தகவல்களை வழங்க முடியும். MSP விகிதங்கள், தகுதி, விண்ணப்ப செயல்முறை அல்லது கொள்முதல் மையங்கள் பற்றி என்னிடம் கேட்கலாம்.'
+      ? 'நான் பயிர் பரிந்துரைகள் பற்றிய தகவல்களை வழங்க முடியும். மண் பகுப்பாய்வு, காலநிலைக்கு ஏற்ற பயிர்கள், லாபகரமான விவசாயம் அல்லது சந்தை விலைகள் பற்றி என்னிடம் கேட்கலாம்.'
       : currentLanguage === 'ml'
-      ? 'എനിക്ക് MSP പദ്ധതികളെക്കുറിച്ചുള്ള വിവരങ്ങൾ നൽകാൻ കഴിയും. MSP നിരക്കുകൾ, യോഗ്യത, അപേക്ഷാ പ്രക്രിയ അല്ലെങ്കിൽ വാങ്ങൽ കേന്ദ്രങ്ങളെക്കുറിച്ച് നിങ്ങൾക്ക് എന്നോട് ചോദിക്കാം.'
-      : 'I can provide information about MSP schemes. You can ask me about MSP rates, eligibility, application process, or procurement centers.';
+      ? 'എനിക്ക് വിള ശുപാർശകളെക്കുറിച്ചുള്ള വിവരങ്ങൾ നൽകാൻ കഴിയും. മണ്ണ് വിശകലനം, കാലാവസ്ഥയ്ക്ക് അനുയോജ്യമായ വിളകൾ, ലാഭകരമായ കൃഷി അല്ലെങ്കിൽ മാർക്കറ്റ് വിലകളെക്കുറിച്ച് നിങ്ങൾക്ക് എന്നോട് ചോദിക്കാം.'
+      : 'I can provide information about crop recommendations. You can ask me about soil analysis, climate-suitable crops, profitable farming, or market prices.';
   };
 
   const handleSendMessage = async () => {
@@ -395,8 +395,8 @@ const MSPSchemes = ({ currentLanguage }: MSPSchemesProps) => {
                     <Bot className="w-5 h-5 text-primary" />
                   </div>
                   <div>
-                    <CardTitle className="text-lg">Crop Recommendation Assistant</CardTitle>
-                    <CardDescription>AI-powered crop recommendations and MSP guidance</CardDescription>
+                    <CardTitle className="text-lg">Crop Recommendation System</CardTitle>
+                    <CardDescription>AI-powered crop recommendations and farming guidance</CardDescription>
                   </div>
                   <div className="ml-auto">
                     <Badge variant="secondary" className="bg-success/10 text-success">
